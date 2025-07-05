@@ -1,0 +1,12 @@
+2025-07-04 00:04:16,018 - mainPipeline - INFO - Logging initialized: logs\medical_pipeline_20250704_000416.log
+2025-07-04 00:04:16,022 - mainPipeline - INFO - Initializing medical pipeline components...
+2025-07-04 00:04:18,067 - mainPipeline - INFO - Medical transcriber initialized
+2025-07-04 00:04:19,040 - mainPipeline - INFO - Medical NER system initialized
+2025-07-04 00:04:19,042 - mainPipeline - INFO - Hybrid triage system initialized
+2025-07-04 00:04:19,047 - mainPipeline - INFO - Medical pipeline successfully initialized!
+2025-07-04 00:04:19,197 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.52.99:5000
+2025-07-04 00:04:19,198 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-04 00:04:19,200 - werkzeug - INFO -  * Restarting with stat

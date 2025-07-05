@@ -1,0 +1,9 @@
+2025-07-04 01:56:57,397 - mainPipeline - INFO - Logging initialized: logs\medical_pipeline_20250704_015657.log
+2025-07-04 01:56:57,398 - mainPipeline - INFO - Initializing medical pipeline components...
+2025-07-04 01:56:59,624 - mainPipeline - INFO - Medical transcriber initialized
+2025-07-04 01:57:01,587 - mainPipeline - INFO - Medical NER system initialized
+2025-07-04 01:57:01,590 - mainPipeline - INFO - Hybrid triage system initialized
+2025-07-04 01:57:01,596 - mainPipeline - INFO - Medical pipeline successfully initialized!
+2025-07-04 01:57:01,657 - werkzeug - WARNING -  * Debugger is active!
+2025-07-04 01:57:01,680 - werkzeug - INFO -  * Debugger PIN: 162-130-176
+2025-07-04 01:57:10,808 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Faraz\\AI_Powered_Medical_Transcription_and_Triage\\backend\\ner.py', reloading

@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+
+
+/* Custom medical dashboard styles */
+@layer components {
+  .medical-card {
+    @apply bg-white rounded-xl shadow-lg border border-gray-200;
+  }
+  
+  .triage-urgent {
+    @apply bg-red-500 text-white;
+  }
+  
+  .triage-normal {
+    @apply bg-green-500 text-white;
+  }
+  
+  .medical-input {
+    @apply w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent;
+  }
+}

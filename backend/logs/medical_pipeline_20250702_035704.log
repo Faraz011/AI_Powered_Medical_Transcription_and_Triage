@@ -1,0 +1,6 @@
+2025-07-02 03:57:04,429 - __main__ - INFO - Logging initialized: logs\medical_pipeline_20250702_035704.log
+2025-07-02 03:57:04,430 - __main__ - INFO - Initializing medical pipeline components...
+2025-07-02 03:57:05,095 - __main__ - INFO - Medical transcriber initialized
+2025-07-02 03:57:05,349 - __main__ - INFO - Medical NER system initialized
+2025-07-02 03:57:05,349 - __main__ - INFO - Hybrid triage system initialized
+2025-07-02 03:57:05,350 - __main__ - INFO - Medical pipeline successfully initialized!

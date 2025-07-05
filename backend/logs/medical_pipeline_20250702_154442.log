@@ -1,0 +1,22 @@
+2025-07-02 15:44:42,804 - __main__ - INFO - Logging initialized: logs\medical_pipeline_20250702_154442.log
+2025-07-02 15:44:42,805 - __main__ - INFO - Initializing medical pipeline components...
+2025-07-02 15:44:43,437 - __main__ - INFO - Medical transcriber initialized
+2025-07-02 15:44:43,710 - __main__ - INFO - Medical NER system initialized
+2025-07-02 15:44:43,710 - __main__ - INFO - Hybrid triage system initialized
+2025-07-02 15:44:43,711 - __main__ - INFO - Medical pipeline successfully initialized!
+2025-07-02 15:44:43,716 - __main__ - INFO - Step 1: Audio transcription...
+2025-07-02 15:44:46,468 - __main__ - INFO - Transcription completed (419 characters)
+2025-07-02 15:44:46,468 - __main__ - INFO - Step 2: Medical entity extraction...
+2025-07-02 15:44:46,469 - __main__ - ERROR - Pipeline failed for C:\Users\Faraz\AI_Powered_Medical_Transcription_and_Triage\audio3.mp3: maximum recursion depth exceeded
+2025-07-02 15:44:46,502 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\Faraz\AI_Powered_Medical_Transcription_and_Triage\mainPipeline.py", line 194, in process_single_audio
+    entities = self.ner_system.extract_entities(transcript_text)
+  File "C:\Users\Faraz\AI_Powered_Medical_Transcription_and_Triage\ner.py", line 41, in extract_entities
+    raw_entities = self.extract_entities(text)  # Your existing method
+  File "C:\Users\Faraz\AI_Powered_Medical_Transcription_and_Triage\ner.py", line 41, in extract_entities
+    raw_entities = self.extract_entities(text)  # Your existing method
+  File "C:\Users\Faraz\AI_Powered_Medical_Transcription_and_Triage\ner.py", line 41, in extract_entities
+    raw_entities = self.extract_entities(text)  # Your existing method
+  [Previous line repeated 994 more times]
+RecursionError: maximum recursion depth exceeded
+

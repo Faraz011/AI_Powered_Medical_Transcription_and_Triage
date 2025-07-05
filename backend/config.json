@@ -1,0 +1,31 @@
+{
+  "audio_settings": {
+    "supported_formats": [".wav", ".mp3", ".m4a", ".flac", ".ogg"],
+    "max_file_size_mb": 200,
+    "sample_rate": 16000
+  },
+  "transcription_settings": {
+    "model_size": "base",
+    "language": "en",
+    "task": "transcribe",
+    "enable_vad": true
+  },
+  "ner_settings": {
+    "confidence_threshold": 0.6,
+    "enable_rule_based": true,
+    "enable_transformer": true,
+    "max_entities_per_category": 50
+  },
+  "triage_settings": {
+    "use_hybrid_approach": true,
+    "confidence_threshold": 0.75,
+    "enable_ml_fallback": true,
+    "escalation_threshold": 2
+  },
+  "output_settings": {
+    "save_intermediate_results": true,
+    "export_formats": ["json", "csv", "html"],
+    "include_confidence_scores": true,
+    "create_visualizations": false
+  }
+}

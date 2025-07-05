@@ -1,0 +1,3 @@
+session_id,category,text,confidence,start,end
+session_20250704_025938,MEDICATION,metapalmine,0.9277207255363464,227,239
+session_20250704_025938,DISEASE,diabetes,1.0,196,204

@@ -1,0 +1,8 @@
+2025-07-04 15:51:52,065 - mainPipeline - INFO - Logging initialized: logs\medical_pipeline_20250704_155152.log
+2025-07-04 15:51:52,065 - mainPipeline - INFO - Initializing medical pipeline components...
+2025-07-04 15:51:52,712 - mainPipeline - INFO - Medical transcriber initialized
+2025-07-04 15:51:55,420 - mainPipeline - INFO - Medical NER system initialized
+2025-07-04 15:51:55,421 - mainPipeline - INFO - Hybrid triage system initialized
+2025-07-04 15:51:55,421 - mainPipeline - INFO - Medical pipeline successfully initialized!
+2025-07-04 15:51:55,441 - werkzeug - WARNING -  * Debugger is active!
+2025-07-04 15:51:55,447 - werkzeug - INFO -  * Debugger PIN: 162-130-176

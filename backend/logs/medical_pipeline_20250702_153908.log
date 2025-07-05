@@ -1,0 +1,18 @@
+2025-07-02 15:39:08,063 - __main__ - INFO - Logging initialized: logs\medical_pipeline_20250702_153908.log
+2025-07-02 15:39:08,064 - __main__ - INFO - Initializing medical pipeline components...
+2025-07-02 15:39:09,144 - __main__ - INFO - Medical transcriber initialized
+2025-07-02 15:39:09,605 - __main__ - INFO - Medical NER system initialized
+2025-07-02 15:39:09,605 - __main__ - INFO - Hybrid triage system initialized
+2025-07-02 15:39:09,607 - __main__ - INFO - Medical pipeline successfully initialized!
+2025-07-02 15:39:09,639 - __main__ - INFO - Step 1: Audio transcription...
+2025-07-02 15:39:20,200 - __main__ - INFO - Transcription completed (419 characters)
+2025-07-02 15:39:20,200 - __main__ - INFO - Step 2: Medical entity extraction...
+2025-07-02 15:39:20,201 - __main__ - ERROR - Pipeline failed for C:\Users\Faraz\AI_Powered_Medical_Transcription_and_Triage\audio3.mp3: 'AdvancedMedicalNER' object has no attribute 'get_raw_entities'
+2025-07-02 15:39:20,210 - __main__ - ERROR - Traceback (most recent call last):
+  File "C:\Users\Faraz\AI_Powered_Medical_Transcription_and_Triage\mainPipeline.py", line 190, in process_single_audio
+    entities = self.ner_system.extract_entities(transcript_text)
+  File "C:\Users\Faraz\AI_Powered_Medical_Transcription_and_Triage\ner.py", line 37, in extract_entities
+    raw_entities = self.get_raw_entities(text)  # Your existing method
+                   ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AdvancedMedicalNER' object has no attribute 'get_raw_entities'. Did you mean: 'extract_entities'?
+

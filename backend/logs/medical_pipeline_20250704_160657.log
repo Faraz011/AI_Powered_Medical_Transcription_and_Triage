@@ -1,0 +1,6 @@
+2025-07-04 16:06:57,435 - mainPipeline - INFO - Logging initialized: logs\medical_pipeline_20250704_160657.log
+2025-07-04 16:06:57,435 - mainPipeline - INFO - Initializing medical pipeline components...
+2025-07-04 16:06:58,309 - mainPipeline - INFO - Medical transcriber initialized
+2025-07-04 16:07:01,944 - mainPipeline - INFO - Medical NER system initialized
+2025-07-04 16:07:01,944 - mainPipeline - INFO - Hybrid triage system initialized
+2025-07-04 16:07:01,945 - mainPipeline - INFO - Medical pipeline successfully initialized!

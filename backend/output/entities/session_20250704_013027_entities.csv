@@ -1,0 +1,5 @@
+session_id,category,text,confidence,start,end
+session_20250704_013027,SYMPTOM,chills,1.0,143,149
+session_20250704_013027,SYMPTOM,sweating,1.0,151,159
+session_20250704_013027,SYMPTOM,headaches,1.0,164,173
+session_20250704_013027,DISEASE,diabetes,1.0,196,204

@@ -1,0 +1,63 @@
+{
+  "session_info": {
+    "session_id": "session_20250704_031751",
+    "patient_id": null,
+    "audio_file": "temp_uploads\\20250704_031751_audio_4.mp3",
+    "processing_timestamp": "2025-07-04T03:18:02.707771",
+    "pipeline_version": "1.0.0"
+  },
+  "transcription": {
+    "text": " Hi, I am Phelous. For the past week I have been feeling very weak and have had a high feel world that comes and goes. I have also experienced chills, sweating and headaches. I was diagnosed with diabetes two years ago and take metapalmine every morning. Just a day I noticed something new here and body H is as that I recently returned formative where the area is common and I am concerned that I might have caught it.",
+    "language": "en",
+    "confidence": 1.0,
+    "duration": 0.0,
+    "word_count": 79
+  },
+  "entities": {
+    "extracted_entities": {
+      "SYMPTOM": [],
+      "MEDICATION": [],
+      "DISEASE": [
+        {
+          "text": "diabetes",
+          "label": "DISEASE",
+          "confidence": 1.0,
+          "start": 196,
+          "end": 204,
+          "source": "rule-based"
+        }
+      ],
+      "PROCEDURE": [],
+      "ANATOMY": []
+    },
+    "entity_summary": {
+      "SYMPTOM": 0,
+      "MEDICATION": 0,
+      "DISEASE": 1,
+      "PROCEDURE": 0,
+      "ANATOMY": 0
+    },
+    "total_entities": 1
+  },
+  "triage": {
+    "triage_level": 5,
+    "priority": "NON-URGENT",
+    "color_code": "BLUE",
+    "recommendation": "Non-urgent care",
+    "wait_time": "120 minutes"
+  },
+  "clinical_summary": {
+    "text_summary": "Conditions mentioned: diabetes",
+    "key_symptoms": [],
+    "current_medications": [],
+    "mentioned_conditions": [
+      "diabetes"
+    ],
+    "discussed_procedures": [],
+    "triage_priority": "NON-URGENT",
+    "recommended_action": "Standard evaluation",
+    "urgency_level": 5
+  },
+  "status": "completed",
+  "processing_time": 0.0
+}

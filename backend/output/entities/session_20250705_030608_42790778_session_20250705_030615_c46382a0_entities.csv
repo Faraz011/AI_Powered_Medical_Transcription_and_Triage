@@ -1,0 +1,7 @@
+session_id,category,text,confidence,start,end,source
+session_20250705_030608_42790778_session_20250705_030615_c46382a0,SYMPTOM,chest pain,1.0,132,142,rule-based
+session_20250705_030608_42790778_session_20250705_030615_c46382a0,SYMPTOM,fatigue,1.0,167,174,rule-based
+session_20250705_030608_42790778_session_20250705_030615_c46382a0,MEDICATION,aspirin,1.0,269,276,rule-based
+session_20250705_030608_42790778_session_20250705_030615_c46382a0,DISEASE,diabetes,1.0,47,55,rule-based
+session_20250705_030608_42790778_session_20250705_030615_c46382a0,DISEASE,hypertension,1.0,73,85,rule-based
+session_20250705_030608_42790778_session_20250705_030615_c46382a0,PROCEDURE,CT scan,1.0,292,299,rule-based
