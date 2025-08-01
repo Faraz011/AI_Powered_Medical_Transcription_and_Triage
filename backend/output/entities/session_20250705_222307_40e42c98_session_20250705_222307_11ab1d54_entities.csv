@@ -1,0 +1,3 @@
+session_id,category,text,confidence,start,end,source
+session_20250705_222307_40e42c98_session_20250705_222307_11ab1d54,SYMPTOM,sweating,1.0,151,159,rule-based
+session_20250705_222307_40e42c98_session_20250705_222307_11ab1d54,DISEASE,diabetes,1.0,196,204,rule-based

@@ -1,0 +1,132 @@
+{
+  "session_info": {
+    "session_id": "session_20250706_004553_947abb96_session_20250706_004559_7dbdaa1f",
+    "patient_id": "session_20250706_004553_947abb96",
+    "audio_file": "temp_uploads\\session_20250706_004553_947abb96_Record_online-voice-recorder.com.mp3",
+    "processing_timestamp": "2025-07-06T00:46:08.581389",
+    "pipeline_version": "1.0.0"
+  },
+  "transcription": {
+    "text": " Hi Doctor, I've been feeling really unwell lately. It started a few days ago with the slight fever and chills, but now I'm also experiencing shortness of breath and tightness in my chest. I have a history of hypertension and was diagnosed with type 2 diabetes about three years ago. I'm currently taking metformin and insulin. Last night, I had a mild chest pain that lasted around 15 minutes. It wasn't sharp, but it was uncomfortable. I also felt very dizzy after standing up suddenly this morning.",
+    "language": "en",
+    "confidence": 1.0,
+    "duration": 0.0,
+    "word_count": 87
+  },
+  "entities": {
+    "extracted_entities": {
+      "SYMPTOM": [
+        {
+          "text": "fever",
+          "label": "SYMPTOM",
+          "confidence": 1.0,
+          "start": 94,
+          "end": 99,
+          "source": "rule-based"
+        },
+        {
+          "text": "shortness of breath",
+          "label": "SYMPTOM",
+          "confidence": 1.0,
+          "start": 142,
+          "end": 161,
+          "source": "rule-based"
+        },
+        {
+          "text": "chest pain",
+          "label": "SYMPTOM",
+          "confidence": 1.0,
+          "start": 353,
+          "end": 363,
+          "source": "rule-based"
+        }
+      ],
+      "MEDICATION": [
+        {
+          "text": "metformin",
+          "label": "MEDICATION",
+          "confidence": 1.0,
+          "start": 305,
+          "end": 314,
+          "source": "rule-based"
+        },
+        {
+          "text": "insulin",
+          "label": "MEDICATION",
+          "confidence": 1.0,
+          "start": 319,
+          "end": 326,
+          "source": "rule-based"
+        }
+      ],
+      "DISEASE": [
+        {
+          "text": "hypertension",
+          "label": "DISEASE",
+          "confidence": 1.0,
+          "start": 209,
+          "end": 221,
+          "source": "rule-based"
+        },
+        {
+          "text": "diabetes",
+          "label": "DISEASE",
+          "confidence": 1.0,
+          "start": 252,
+          "end": 260,
+          "source": "rule-based"
+        }
+      ],
+      "PROCEDURE": [],
+      "ANATOMY": []
+    },
+    "entity_summary": {
+      "SYMPTOM": 3,
+      "MEDICATION": 2,
+      "DISEASE": 2,
+      "PROCEDURE": 0,
+      "ANATOMY": 0
+    },
+    "total_entities": 7
+  },
+  "triage": {
+    "triage_level": 2,
+    "priority": "EMERGENT",
+    "color_code": "ORANGE",
+    "recommendation": "High-risk situation - should not wait",
+    "wait_time": "\u226410 minutes",
+    "esi_version": "4.0",
+    "assessment_id": "ea21f99a",
+    "timestamp": "2025-07-06T00:46:08.565366",
+    "confidence": "HIGH"
+  },
+  "clinical_summary": {
+    "text_summary": "Presenting symptoms: fever, shortness of breath, chest pain. Current medications: metformin, insulin. Conditions mentioned: hypertension, diabetes",
+    "key_symptoms": [
+      "fever",
+      "shortness of breath",
+      "chest pain"
+    ],
+    "current_medications": [
+      "metformin",
+      "insulin"
+    ],
+    "mentioned_conditions": [
+      "hypertension",
+      "diabetes"
+    ],
+    "discussed_procedures": [],
+    "triage_priority": "EMERGENT",
+    "recommended_action": "High-risk situation - should not wait",
+    "urgency_level": 2
+  },
+  "status": "completed",
+  "processing_time": 0.0,
+  "debug_info": {
+    "file_hash": "58a81281",
+    "transcript_hash": "821ce0cd",
+    "entities_hash": "cf617e6d",
+    "triage_hash": "acdb6c5a",
+    "processing_timestamp": "2025-07-06T00:46:08.581428"
+  }
+}

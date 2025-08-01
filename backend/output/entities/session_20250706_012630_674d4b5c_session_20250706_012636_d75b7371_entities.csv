@@ -1,0 +1,8 @@
+session_id,category,text,confidence,start,end,source
+session_20250706_012630_674d4b5c_session_20250706_012636_d75b7371,SYMPTOM,fever,1.0,94,99,rule-based
+session_20250706_012630_674d4b5c_session_20250706_012636_d75b7371,SYMPTOM,shortness of breath,1.0,142,161,rule-based
+session_20250706_012630_674d4b5c_session_20250706_012636_d75b7371,SYMPTOM,chest pain,1.0,353,363,rule-based
+session_20250706_012630_674d4b5c_session_20250706_012636_d75b7371,MEDICATION,metformin,1.0,305,314,rule-based
+session_20250706_012630_674d4b5c_session_20250706_012636_d75b7371,MEDICATION,insulin,1.0,319,326,rule-based
+session_20250706_012630_674d4b5c_session_20250706_012636_d75b7371,DISEASE,hypertension,1.0,209,221,rule-based
+session_20250706_012630_674d4b5c_session_20250706_012636_d75b7371,DISEASE,diabetes,1.0,252,260,rule-based

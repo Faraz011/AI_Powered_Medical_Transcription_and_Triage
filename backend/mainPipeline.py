@@ -1,12 +1,9 @@
-import re
 import warnings
 warnings.filterwarnings('ignore', category=UserWarning)
 
-import os
 import sys
 import json
 import logging
-import pandas as pd
 import torch
 import hashlib
 import uuid
@@ -424,7 +421,7 @@ class MedicalPipelineIntegrator:
                     })
             
             if entity_rows:
-                df = pd.DataFrame(entity_rows)
+                df = datetime.now(entity_rows)
                 csv_file = self.output_dirs['entities'] / f"{session_id}_entities.csv"
                 df.to_csv(csv_file, index=False)
                 self.logger.info(f"📊 Entities CSV saved: {csv_file}")

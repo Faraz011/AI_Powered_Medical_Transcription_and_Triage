@@ -1,0 +1,85 @@
+{
+  "session_info": {
+    "session_id": "session_20250705_222307_40e42c98_session_20250705_222307_11ab1d54",
+    "patient_id": "session_20250705_222307_40e42c98",
+    "audio_file": "temp_uploads\\session_20250705_222307_40e42c98_audio3.mp3",
+    "processing_timestamp": "2025-07-05T22:23:23.995877",
+    "pipeline_version": "1.0.0"
+  },
+  "transcription": {
+    "text": " Hi, I am Phelous. For the past week I have been feeling very weak and have had a high feel world that comes and goes. I have also experienced chills, sweating and headaches. I was diagnosed with diabetes two years ago and take metapalmine every morning. Just a day I noticed something new here and body H is as that I recently returned formative where the area is common and I am concerned that I might have caught it.",
+    "language": "en",
+    "confidence": 1.0,
+    "duration": 0.0,
+    "word_count": 79
+  },
+  "entities": {
+    "extracted_entities": {
+      "SYMPTOM": [
+        {
+          "text": "sweating",
+          "label": "SYMPTOM",
+          "confidence": 1.0,
+          "start": 151,
+          "end": 159,
+          "source": "rule-based"
+        }
+      ],
+      "MEDICATION": [],
+      "DISEASE": [
+        {
+          "text": "diabetes",
+          "label": "DISEASE",
+          "confidence": 1.0,
+          "start": 196,
+          "end": 204,
+          "source": "rule-based"
+        }
+      ],
+      "PROCEDURE": [],
+      "ANATOMY": []
+    },
+    "entity_summary": {
+      "SYMPTOM": 1,
+      "MEDICATION": 0,
+      "DISEASE": 1,
+      "PROCEDURE": 0,
+      "ANATOMY": 0
+    },
+    "total_entities": 2
+  },
+  "triage": {
+    "triage_level": 3,
+    "priority": "URGENT",
+    "color_code": "YELLOW",
+    "recommendation": "Many resources needed - urgent care",
+    "wait_time": "\u226430 minutes",
+    "esi_version": "4.0",
+    "assessment_id": "456762de",
+    "timestamp": "2025-07-05T22:23:23.895354",
+    "confidence": "MEDIUM"
+  },
+  "clinical_summary": {
+    "text_summary": "Presenting symptoms: sweating. Conditions mentioned: diabetes",
+    "key_symptoms": [
+      "sweating"
+    ],
+    "current_medications": [],
+    "mentioned_conditions": [
+      "diabetes"
+    ],
+    "discussed_procedures": [],
+    "triage_priority": "URGENT",
+    "recommended_action": "Many resources needed - urgent care",
+    "urgency_level": 3
+  },
+  "status": "completed",
+  "processing_time": 0.0,
+  "debug_info": {
+    "file_hash": "4360ba55",
+    "transcript_hash": "8324c6fa",
+    "entities_hash": "1409e04b",
+    "triage_hash": "ada6c81e",
+    "processing_timestamp": "2025-07-05T22:23:23.995944"
+  }
+}

@@ -1,8 +1,6 @@
-import torch
 from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
 import medspacy
 from medspacy.ner import TargetRule
-from collections import defaultdict
 import warnings
 warnings.filterwarnings('ignore')
 

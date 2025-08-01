@@ -17,7 +17,7 @@ const Header = () => {
                 Medical AI Transcription & Triage
               </h1>
               <p className="text-sm text-gray-600">
-                Powered by Vite • AI Transcription • NER • Intelligent Triage
+                 AI Transcription • NER • Intelligent Triage
               </p>
             </div>
           </div>

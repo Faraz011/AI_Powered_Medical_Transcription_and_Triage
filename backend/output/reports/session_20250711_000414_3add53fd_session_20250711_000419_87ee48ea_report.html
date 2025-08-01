@@ -1,0 +1,92 @@
+
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <title>Medical AI Report - session_20250711_000414_3add53fd_session_20250711_000419_87ee48ea</title>
+                <style>
+                    body { font-family: Arial, sans-serif; margin: 40px; background-color: #f5f5f5; }
+                    .container { max-width: 1200px; margin: 0 auto; background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+                    .header { background-color: #f0f8ff; padding: 20px; border-radius: 10px; margin-bottom: 20px; }
+                    .section { margin: 20px 0; padding: 15px; border: 1px solid #ddd; border-radius: 5px; background-color: #fafafa; }
+                    .urgent { background-color: #ffe6e6; border-color: #ff9999; }
+                    .normal { background-color: #e6ffe6; border-color: #99ff99; }
+                    .entity { display: inline-block; margin: 5px; padding: 5px 10px; background-color: #e9ecef; border-radius: 15px; border: 1px solid #ced4da; }
+                    .entity.symptom { background-color: #fff3cd; border-color: #ffeaa7; }
+                    .entity.medication { background-color: #d1ecf1; border-color: #bee5eb; }
+                    .entity.disease { background-color: #f8d7da; border-color: #f5c6cb; }
+                    .entity.procedure { background-color: #d4edda; border-color: #c3e6cb; }
+                    .confidence { font-size: 0.8em; color: #666; }
+                    .transcript { background-color: white; padding: 15px; border-left: 4px solid #007bff; font-style: italic; }
+                    .triage-badge { display: inline-block; padding: 8px 16px; border-radius: 20px; font-weight: bold; margin: 10px 0; }
+                    .level-1 { background-color: #dc3545; color: white; }
+                    .level-2 { background-color: #fd7e14; color: white; }
+                    .level-3 { background-color: #ffc107; color: black; }
+                    .level-4 { background-color: #28a745; color: white; }
+                    .level-5 { background-color: #6c757d; color: white; }
+                </style>
+            </head>
+            <body>
+                <div class="container">
+                    <div class="header">
+                        <h1>🏥 Medical AI Analysis Report</h1>
+                        <p><strong>Session ID:</strong> session_20250711_000414_3add53fd_session_20250711_000419_87ee48ea</p>
+                        <p><strong>Processing Time:</strong> 2025-07-11T00:04:24.181033</p>
+                        <p><strong>Audio File:</strong> temp_uploads\session_20250711_000414_3add53fd_audio4.mp3</p>
+                    </div>
+                    
+                    <div class="section">
+                        <h2>📝 Transcript</h2>
+                        <div class="transcript">
+                            <p> Patient is 65 year old male with a history of diabetes, medical type 2, hypertension and coronary artery disease. He presents with chest pain, shortness of bleed and fatigue. Column medications include metapormal 400 mg twice-peel, lusin ophidine, 10 mg once-peel and aspirin 81 mg. Ordered CT scan for chest and blood work including upper end heavens.</p>
+                        </div>
+                        <p><strong>Confidence:</strong> 1.00</p>
+                        <p><strong>Word Count:</strong> 57</p>
+                        <p><strong>Duration:</strong> 0.0 seconds</p>
+                    </div>
+                    
+                    <div class="section">
+                        <h2>🏥 Medical Entities</h2>
+                        <p><strong>Total Entities:</strong> 6</p>
+                        <h4>Symptom (2 entities)</h4><span class="entity symptom">chest pain <span class="confidence">(1.00 - rule-based)</span></span><span class="entity symptom">fatigue <span class="confidence">(1.00 - rule-based)</span></span><br><br><h4>Medication (1 entities)</h4><span class="entity medication">aspirin <span class="confidence">(1.00 - rule-based)</span></span><br><br><h4>Disease (2 entities)</h4><span class="entity disease">diabetes <span class="confidence">(1.00 - rule-based)</span></span><span class="entity disease">hypertension <span class="confidence">(1.00 - rule-based)</span></span><br><br><h4>Procedure (1 entities)</h4><span class="entity procedure">CT scan <span class="confidence">(1.00 - rule-based)</span></span><br><br>
+                    </div>
+                    
+                    <div class="section urgent">
+                        <h2>🚑 Triage Assessment</h2>
+                        <div class="triage-badge level-2">
+                            Level 2 - EMERGENT
+                        </div>
+                        <p><strong>Color Code:</strong> ORANGE</p>
+                        <p><strong>Recommended Action:</strong> High-risk situation - should not wait</p>
+                        <p><strong>Wait Time:</strong> ≤10 minutes</p>
+                        <p><strong>Confidence:</strong> HIGH</p>
+                    </div>
+                    
+                    <div class="section">
+                        <h2>📋 Clinical Summary</h2>
+                        <p><strong>Summary:</strong> Presenting symptoms: chest pain, fatigue. Current medications: aspirin. Conditions mentioned: diabetes, hypertension. Procedures discussed: CT scan</p>
+                        
+                        <div style="margin-top: 15px;">
+                            <h4>Key Clinical Information:</h4>
+                            <p><strong>Symptoms:</strong> chest pain, fatigue</p>
+                            <p><strong>Medications:</strong> aspirin</p>
+                            <p><strong>Conditions:</strong> diabetes, hypertension</p>
+                            <p><strong>Procedures:</strong> CT scan</p>
+                        </div>
+                    </div>
+                    
+                    <div class="section">
+                        <h2>🔍 Processing Details</h2>
+                        <p><strong>Pipeline Version:</strong> 1.0.0</p>
+                        <p><strong>Processing Status:</strong> completed</p>
+                        <p><strong>Processing Time:</strong> 0.00 seconds</p>
+                        
+                        <h4>🔧 Debug Information</h4><p><strong>File Hash:</strong> f3a7eaad</p><p><strong>Transcript Hash:</strong> f009dccf</p><p><strong>Entities Hash:</strong> 7ec8ed96</p><p><strong>Triage Hash:</strong> df4c1cc8</p>
+                    </div>
+                    
+                    <div class="header" style="margin-top: 30px; text-align: center; font-size: 0.9em; color: #666;">
+                        <p>Generated by Medical AI Pipeline v1.0.0 | 2025-07-11 00:04:24</p>
+                    </div>
+                </div>
+            </body>
+            </html>
+            

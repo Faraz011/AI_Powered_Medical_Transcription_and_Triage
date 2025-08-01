@@ -2,8 +2,6 @@ from flask import Flask, request, jsonify, g, has_request_context
 from flask_cors import CORS
 from flask.json.provider import DefaultJSONProvider
 import os
-import json
-import tempfile
 import numpy as np
 import threading
 import uuid
@@ -151,7 +149,7 @@ setup_logging()
 pipeline_manager = ThreadSafePipelineManager()
 
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:3000"])
+CORS(app, origins=["http://localhost:3001"])
 
 # Apply the custom JSON provider
 app.json = NumpyJSONProvider(app)
@@ -320,7 +318,7 @@ def upload_and_process():
                     'level': result.get('triage', {}).get('triage_level', 5),
                     'priority': result.get('triage', {}).get('priority', 'NON-URGENT'),
                     'color_code': result.get('triage', {}).get('color_code', 'BLUE'),
-                    'recommendation': result.get('triage', {}).get('action', 'Standard care'),
+                    'recommendation': result.get('triage', {}).get('recommendation'),
                     'confidence': result.get('triage', {}).get('confidence', 'N/A')
                 },
                 'clinical_summary': result.get('clinical_summary', {}),

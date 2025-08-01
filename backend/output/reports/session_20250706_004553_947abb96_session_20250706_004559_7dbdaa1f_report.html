@@ -1,0 +1,92 @@
+
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <title>Medical AI Report - session_20250706_004553_947abb96_session_20250706_004559_7dbdaa1f</title>
+                <style>
+                    body { font-family: Arial, sans-serif; margin: 40px; background-color: #f5f5f5; }
+                    .container { max-width: 1200px; margin: 0 auto; background-color: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+                    .header { background-color: #f0f8ff; padding: 20px; border-radius: 10px; margin-bottom: 20px; }
+                    .section { margin: 20px 0; padding: 15px; border: 1px solid #ddd; border-radius: 5px; background-color: #fafafa; }
+                    .urgent { background-color: #ffe6e6; border-color: #ff9999; }
+                    .normal { background-color: #e6ffe6; border-color: #99ff99; }
+                    .entity { display: inline-block; margin: 5px; padding: 5px 10px; background-color: #e9ecef; border-radius: 15px; border: 1px solid #ced4da; }
+                    .entity.symptom { background-color: #fff3cd; border-color: #ffeaa7; }
+                    .entity.medication { background-color: #d1ecf1; border-color: #bee5eb; }
+                    .entity.disease { background-color: #f8d7da; border-color: #f5c6cb; }
+                    .entity.procedure { background-color: #d4edda; border-color: #c3e6cb; }
+                    .confidence { font-size: 0.8em; color: #666; }
+                    .transcript { background-color: white; padding: 15px; border-left: 4px solid #007bff; font-style: italic; }
+                    .triage-badge { display: inline-block; padding: 8px 16px; border-radius: 20px; font-weight: bold; margin: 10px 0; }
+                    .level-1 { background-color: #dc3545; color: white; }
+                    .level-2 { background-color: #fd7e14; color: white; }
+                    .level-3 { background-color: #ffc107; color: black; }
+                    .level-4 { background-color: #28a745; color: white; }
+                    .level-5 { background-color: #6c757d; color: white; }
+                </style>
+            </head>
+            <body>
+                <div class="container">
+                    <div class="header">
+                        <h1>🏥 Medical AI Analysis Report</h1>
+                        <p><strong>Session ID:</strong> session_20250706_004553_947abb96_session_20250706_004559_7dbdaa1f</p>
+                        <p><strong>Processing Time:</strong> 2025-07-06T00:46:08.581389</p>
+                        <p><strong>Audio File:</strong> temp_uploads\session_20250706_004553_947abb96_Record_online-voice-recorder.com.mp3</p>
+                    </div>
+                    
+                    <div class="section">
+                        <h2>📝 Transcript</h2>
+                        <div class="transcript">
+                            <p> Hi Doctor, I've been feeling really unwell lately. It started a few days ago with the slight fever and chills, but now I'm also experiencing shortness of breath and tightness in my chest. I have a history of hypertension and was diagnosed with type 2 diabetes about three years ago. I'm currently taking metformin and insulin. Last night, I had a mild chest pain that lasted around 15 minutes. It wasn't sharp, but it was uncomfortable. I also felt very dizzy after standing up suddenly this morning.</p>
+                        </div>
+                        <p><strong>Confidence:</strong> 1.00</p>
+                        <p><strong>Word Count:</strong> 87</p>
+                        <p><strong>Duration:</strong> 0.0 seconds</p>
+                    </div>
+                    
+                    <div class="section">
+                        <h2>🏥 Medical Entities</h2>
+                        <p><strong>Total Entities:</strong> 7</p>
+                        <h4>Symptom (3 entities)</h4><span class="entity symptom">fever <span class="confidence">(1.00 - rule-based)</span></span><span class="entity symptom">shortness of breath <span class="confidence">(1.00 - rule-based)</span></span><span class="entity symptom">chest pain <span class="confidence">(1.00 - rule-based)</span></span><br><br><h4>Medication (2 entities)</h4><span class="entity medication">metformin <span class="confidence">(1.00 - rule-based)</span></span><span class="entity medication">insulin <span class="confidence">(1.00 - rule-based)</span></span><br><br><h4>Disease (2 entities)</h4><span class="entity disease">hypertension <span class="confidence">(1.00 - rule-based)</span></span><span class="entity disease">diabetes <span class="confidence">(1.00 - rule-based)</span></span><br><br>
+                    </div>
+                    
+                    <div class="section urgent">
+                        <h2>🚑 Triage Assessment</h2>
+                        <div class="triage-badge level-2">
+                            Level 2 - EMERGENT
+                        </div>
+                        <p><strong>Color Code:</strong> ORANGE</p>
+                        <p><strong>Recommended Action:</strong> High-risk situation - should not wait</p>
+                        <p><strong>Wait Time:</strong> ≤10 minutes</p>
+                        <p><strong>Confidence:</strong> HIGH</p>
+                    </div>
+                    
+                    <div class="section">
+                        <h2>📋 Clinical Summary</h2>
+                        <p><strong>Summary:</strong> Presenting symptoms: fever, shortness of breath, chest pain. Current medications: metformin, insulin. Conditions mentioned: hypertension, diabetes</p>
+                        
+                        <div style="margin-top: 15px;">
+                            <h4>Key Clinical Information:</h4>
+                            <p><strong>Symptoms:</strong> fever, shortness of breath, chest pain</p>
+                            <p><strong>Medications:</strong> metformin, insulin</p>
+                            <p><strong>Conditions:</strong> hypertension, diabetes</p>
+                            <p><strong>Procedures:</strong> None discussed</p>
+                        </div>
+                    </div>
+                    
+                    <div class="section">
+                        <h2>🔍 Processing Details</h2>
+                        <p><strong>Pipeline Version:</strong> 1.0.0</p>
+                        <p><strong>Processing Status:</strong> completed</p>
+                        <p><strong>Processing Time:</strong> 0.00 seconds</p>
+                        
+                        <h4>🔧 Debug Information</h4><p><strong>File Hash:</strong> 58a81281</p><p><strong>Transcript Hash:</strong> 821ce0cd</p><p><strong>Entities Hash:</strong> cf617e6d</p><p><strong>Triage Hash:</strong> acdb6c5a</p>
+                    </div>
+                    
+                    <div class="header" style="margin-top: 30px; text-align: center; font-size: 0.9em; color: #666;">
+                        <p>Generated by Medical AI Pipeline v1.0.0 | 2025-07-06 00:46:08</p>
+                    </div>
+                </div>
+            </body>
+            </html>
+            

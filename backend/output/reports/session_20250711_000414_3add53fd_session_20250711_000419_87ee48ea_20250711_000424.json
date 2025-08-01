@@ -1,0 +1,125 @@
+{
+  "session_info": {
+    "session_id": "session_20250711_000414_3add53fd_session_20250711_000419_87ee48ea",
+    "patient_id": "session_20250711_000414_3add53fd",
+    "audio_file": "temp_uploads\\session_20250711_000414_3add53fd_audio4.mp3",
+    "processing_timestamp": "2025-07-11T00:04:24.181033",
+    "pipeline_version": "1.0.0"
+  },
+  "transcription": {
+    "text": " Patient is 65 year old male with a history of diabetes, medical type 2, hypertension and coronary artery disease. He presents with chest pain, shortness of bleed and fatigue. Column medications include metapormal 400 mg twice-peel, lusin ophidine, 10 mg once-peel and aspirin 81 mg. Ordered CT scan for chest and blood work including upper end heavens.",
+    "language": "en",
+    "confidence": 1.0,
+    "duration": 0.0,
+    "word_count": 57
+  },
+  "entities": {
+    "extracted_entities": {
+      "SYMPTOM": [
+        {
+          "text": "chest pain",
+          "label": "SYMPTOM",
+          "confidence": 1.0,
+          "start": 132,
+          "end": 142,
+          "source": "rule-based"
+        },
+        {
+          "text": "fatigue",
+          "label": "SYMPTOM",
+          "confidence": 1.0,
+          "start": 167,
+          "end": 174,
+          "source": "rule-based"
+        }
+      ],
+      "MEDICATION": [
+        {
+          "text": "aspirin",
+          "label": "MEDICATION",
+          "confidence": 1.0,
+          "start": 269,
+          "end": 276,
+          "source": "rule-based"
+        }
+      ],
+      "DISEASE": [
+        {
+          "text": "diabetes",
+          "label": "DISEASE",
+          "confidence": 1.0,
+          "start": 47,
+          "end": 55,
+          "source": "rule-based"
+        },
+        {
+          "text": "hypertension",
+          "label": "DISEASE",
+          "confidence": 1.0,
+          "start": 73,
+          "end": 85,
+          "source": "rule-based"
+        }
+      ],
+      "PROCEDURE": [
+        {
+          "text": "CT scan",
+          "label": "PROCEDURE",
+          "confidence": 1.0,
+          "start": 292,
+          "end": 299,
+          "source": "rule-based"
+        }
+      ],
+      "ANATOMY": []
+    },
+    "entity_summary": {
+      "SYMPTOM": 2,
+      "MEDICATION": 1,
+      "DISEASE": 2,
+      "PROCEDURE": 1,
+      "ANATOMY": 0
+    },
+    "total_entities": 6
+  },
+  "triage": {
+    "triage_level": 2,
+    "priority": "EMERGENT",
+    "color_code": "ORANGE",
+    "recommendation": "High-risk situation - should not wait",
+    "wait_time": "\u226410 minutes",
+    "esi_version": "4.0",
+    "assessment_id": "f421314e",
+    "timestamp": "2025-07-11T00:04:24.168892",
+    "confidence": "HIGH"
+  },
+  "clinical_summary": {
+    "text_summary": "Presenting symptoms: chest pain, fatigue. Current medications: aspirin. Conditions mentioned: diabetes, hypertension. Procedures discussed: CT scan",
+    "key_symptoms": [
+      "chest pain",
+      "fatigue"
+    ],
+    "current_medications": [
+      "aspirin"
+    ],
+    "mentioned_conditions": [
+      "diabetes",
+      "hypertension"
+    ],
+    "discussed_procedures": [
+      "CT scan"
+    ],
+    "triage_priority": "EMERGENT",
+    "recommended_action": "High-risk situation - should not wait",
+    "urgency_level": 2
+  },
+  "status": "completed",
+  "processing_time": 0.0,
+  "debug_info": {
+    "file_hash": "f3a7eaad",
+    "transcript_hash": "f009dccf",
+    "entities_hash": "7ec8ed96",
+    "triage_hash": "df4c1cc8",
+    "processing_timestamp": "2025-07-11T00:04:24.181073"
+  }
+}
